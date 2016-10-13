@@ -15,5 +15,6 @@ namespace CompanyA.OrderEntry
             string id = Console.ReadLine();
             Console.WriteLine("The Product Id is {0}", OrderValidation.IsProductValid(id) ? "valid" : "invalid");
         }
+
     }
 }
